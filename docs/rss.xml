@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>氕氘氚的博客</title><link>https://flush921.github.io</link><description>目标躺平的程序猿</description><copyright>氕氘氚的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/135109579?s=400&amp;u=a72f7750cd58d0197621140343fd799fa6ed8db1&amp;v=4</url><title>avatar</title><link>https://flush921.github.io</link></image><lastBuildDate>Wed, 19 Mar 2025 05:42:59 +0000</lastBuildDate><managingEditor>氕氘氚的博客</managingEditor><ttl>60</ttl><webMaster>氕氘氚的博客</webMaster><item><title>机器学习--K临近</title><link>https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</link><description># 构建kd树
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>氕氘氚的博客</title><link>https://flush921.github.io</link><description>目标躺平的程序猿</description><copyright>氕氘氚的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/135109579?s=400&amp;u=a72f7750cd58d0197621140343fd799fa6ed8db1&amp;v=4</url><title>avatar</title><link>https://flush921.github.io</link></image><lastBuildDate>Wed, 19 Mar 2025 16:12:15 +0000</lastBuildDate><managingEditor>氕氘氚的博客</managingEditor><ttl>60</ttl><webMaster>氕氘氚的博客</webMaster><item><title>机器学习--K临近</title><link>https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</link><description># 构建kd树
 
 ![Image](https://github.com/user-attachments/assets/e6b8117d-10aa-4387-b0c0-49e50eecd31c)
 
@@ -7,7 +7,15 @@
 
 给定一个构建于一个样本集的 kd 树，下面的算法可以寻找距离某个点 p 最近的 k 个样本：
 
-(零) 设 L 为一个有 k 个空位的列表，用于保存已搜寻到的最近点。</description><guid isPermaLink="true">https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</guid><pubDate>Wed, 19 Mar 2025 05:42:32 +0000</pubDate></item><item><title>机器学习--朴素贝叶斯方法</title><link>https://flush921.github.io/post/ji-qi-xue-xi----pu-su-bei-ye-si-fang-fa.html</link><description># 极大似然估计
+(零) 设 L 为一个有 k 个空位的列表，用于保存已搜寻到的最近点。</description><guid isPermaLink="true">https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</guid><pubDate>Wed, 19 Mar 2025 05:42:32 +0000</pubDate></item><item><title>机器学习--K临近</title><link>https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</link><description># 构建kd树
+
+![Image](https://github.com/user-attachments/assets/c081a885-01ff-4a20-8d33-86972a96cfd3)
+
+
+# kd 树上的 kNN 算法
+给定一个构建于一个样本集的 kd 树，下面的算法可以寻找距离某个点 p 最近的 k 个样本：
+
+**(零)** 设 L 为一个有 k 个空位的列表，用于保存已搜寻到的最近点。</description><guid isPermaLink="true">https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</guid><pubDate>Wed, 19 Mar 2025 05:38:18 +0000</pubDate></item><item><title>机器学习--朴素贝叶斯方法</title><link>https://flush921.github.io/post/ji-qi-xue-xi----pu-su-bei-ye-si-fang-fa.html</link><description># 极大似然估计
 补充对于其的理解：
 https://zhuanlan.zhihu.com/p/334890990
 
