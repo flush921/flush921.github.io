@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>氕氘氚的博客</title><link>https://flush921.github.io</link><description>目标躺平的程序猿</description><copyright>氕氘氚的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/135109579?s=400&amp;u=a72f7750cd58d0197621140343fd799fa6ed8db1&amp;v=4</url><title>avatar</title><link>https://flush921.github.io</link></image><lastBuildDate>Wed, 19 Mar 2025 16:12:15 +0000</lastBuildDate><managingEditor>氕氘氚的博客</managingEditor><ttl>60</ttl><webMaster>氕氘氚的博客</webMaster><item><title>机器学习--K临近</title><link>https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</link><description># 构建kd树
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>氕氘氚的博客</title><link>https://flush921.github.io</link><description>目标躺平的程序猿</description><copyright>氕氘氚的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/135109579?s=400&amp;u=a72f7750cd58d0197621140343fd799fa6ed8db1&amp;v=4</url><title>avatar</title><link>https://flush921.github.io</link></image><lastBuildDate>Thu, 20 Mar 2025 08:24:44 +0000</lastBuildDate><managingEditor>氕氘氚的博客</managingEditor><ttl>60</ttl><webMaster>氕氘氚的博客</webMaster><item><title>机器学习--决策树</title><link>https://flush921.github.io/post/ji-qi-xue-xi----jue-ce-shu.html</link><description># 决策树
+## 重要概念
+**信息熵与条件信息熵:**
+(在李航老师书中, 也名为经验熵与经验条件熵, 名字源于该两种熵是由数据估计所得到的)
+
+![Image](https://github.com/user-attachments/assets/16d81add-e397-47bd-91b0-5f0e2cdb73a8)
+
+**信息增益:**
+表示得知特征X的信息而使得类Y的信息的不确定性减少的程度
+
+![Image](https://github.com/user-attachments/assets/ea6a18bf-62e0-4e05-ace7-12ac526c791e)
+
+**信息增益比:**
+信息增益存在以下问题: 偏向于选择取值较多的特征的问题
+eg: 我们的样本有一个属性叫 *序号*，每一个样本都具有一个单独的序号，因此使用序号划分后，每个子结点只有一个样本，熵为0。</description><guid isPermaLink="true">https://flush921.github.io/post/ji-qi-xue-xi----jue-ce-shu.html</guid><pubDate>Thu, 20 Mar 2025 08:24:20 +0000</pubDate></item><item><title>机器学习--K临近</title><link>https://flush921.github.io/post/ji-qi-xue-xi---K-lin-jin.html</link><description># 构建kd树
 
 ![Image](https://github.com/user-attachments/assets/e6b8117d-10aa-4387-b0c0-49e50eecd31c)
 
