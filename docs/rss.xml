@@ -1,5 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>氕氘氚的博客</title><link>https://flush921.github.io</link><description>目标躺平的程序猿</description><copyright>氕氘氚的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/135109579?s=400&amp;u=a72f7750cd58d0197621140343fd799fa6ed8db1&amp;v=4</url><title>avatar</title><link>https://flush921.github.io</link></image><lastBuildDate>Thu, 20 Mar 2025 08:24:44 +0000</lastBuildDate><managingEditor>氕氘氚的博客</managingEditor><ttl>60</ttl><webMaster>氕氘氚的博客</webMaster><item><title>机器学习--决策树</title><link>https://flush921.github.io/post/ji-qi-xue-xi----jue-ce-shu.html</link><description># 决策树
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>氕氘氚的博客</title><link>https://flush921.github.io</link><description>目标躺平的程序猿</description><copyright>氕氘氚的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/135109579?s=400&amp;u=a72f7750cd58d0197621140343fd799fa6ed8db1&amp;v=4</url><title>avatar</title><link>https://flush921.github.io</link></image><lastBuildDate>Fri, 21 Mar 2025 13:18:04 +0000</lastBuildDate><managingEditor>氕氘氚的博客</managingEditor><ttl>60</ttl><webMaster>氕氘氚的博客</webMaster><item><title>机器学习--逻辑斯蒂回归</title><link>https://flush921.github.io/post/ji-qi-xue-xi----luo-ji-si-di-hui-gui.html</link><description># 逻辑斯蒂回归模型
+## 逻辑斯蒂分布
+
+![Image](https://github.com/user-attachments/assets/f0e5d568-3ba8-49d7-a9ff-72e10e4cfb1d)
+
+## 二项逻辑斯蒂回归模型（实际是一种分类模型）
+![Image](https://github.com/user-attachments/assets/5056c7b7-c488-4401-aca6-248f3251eedd)
+
+回顾：**统计学习方法** = **模型**（决策树...）+ **策略**（评分标准）+ **算法**（如何找到最优评分模型的方法）
+
+逻辑斯蒂模型：
+![Image](https://github.com/user-attachments/assets/d67ecc60-8604-4cf9-b222-ed486cd94fb7)
+
+![Image](https://github.com/user-attachments/assets/daa31467-ad27-4f39-bd19-80491d90ce36)
+
+![Image](https://github.com/user-attachments/assets/1db22f05-9a2f-4d69-b5b3-112ba1dabe33)
+
+![Image](https://github.com/user-attachments/assets/8d637a74-4441-4566-84e6-98972230ccf9)
+
+这也说明了为什么有时候要归一化，以 $x^{(1)} + x^{(2)} + 3 = z$ 为例子, 对于 $x^{(2)} = 20000$ 、 $x^{(1)} = 1$ 的时候, 为了使sigmoid(z)不一直处在趋于1的区域, 必须归一化
+
+## 模型参数估计（算法）
+![Image](https://github.com/user-attachments/assets/d111a156-78ec-43f6-a675-98051b40b0e8)
+举例：
+![Image](https://github.com/user-attachments/assets/6921e314-2c71-4f9e-ba2e-d9b11c5c349f)
+
+![Image](https://github.com/user-attachments/assets/684a4c2b-a218-44ed-8386-63158cb9db08)
+
+![Image](https://github.com/user-attachments/assets/0058f6c7-5729-4f60-a9b3-e4df58cb8574)
+以上这张图就涉及到了数值分析的内容（理解梯度下降：https://blog.csdn.net/qq_41800366/article/details/86583789）
+
+## 多项逻辑斯蒂回归模型
+![Image](https://github.com/user-attachments/assets/b6d5bb82-e30b-43a6-b84c-1b1ec9730484)
+
+。</description><guid isPermaLink="true">https://flush921.github.io/post/ji-qi-xue-xi----luo-ji-si-di-hui-gui.html</guid><pubDate>Fri, 21 Mar 2025 13:17:33 +0000</pubDate></item><item><title>机器学习--决策树</title><link>https://flush921.github.io/post/ji-qi-xue-xi----jue-ce-shu.html</link><description># 决策树
 ## 重要概念
 **信息熵与条件信息熵:**
 (在李航老师书中, 也名为经验熵与经验条件熵, 名字源于该两种熵是由数据估计所得到的)
